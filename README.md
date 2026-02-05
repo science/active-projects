@@ -7,7 +7,7 @@ A directory of my active personal projects -- web apps, tools, and utilities.
 ### [WolfeChat](https://github.com/science/WolfeChat)
 **Live:** [science.github.io/WolfeChat](https://science.github.io/WolfeChat/)
 
-Browser-based multi-provider AI chat interface supporting OpenAI (GPT-4, o1) and Anthropic (Claude) models. Bring your own API keys, no subscription needed. Features streaming responses, reasoning windows, per-conversation settings, image uploads, and TTS.
+Browser-based multi-provider AI chat interface supporting OpenAI (GPT-5.2, GPT-4.1) and Anthropic (Claude Opus, Sonnet) models. Bring your own API keys, no subscription needed. Features streaming responses, reasoning windows, per-conversation settings, image uploads, and TTS.
 
 *Svelte + TypeScript + Vite -- deployed to GitHub Pages*
 
@@ -16,7 +16,7 @@ Browser-based multi-provider AI chat interface supporting OpenAI (GPT-4, o1) and
 ### [AI Translator](https://github.com/science/ai-translator)
 **Live:** [science.github.io/ai-translator](https://science.github.io/ai-translator/)
 
-Convert and translate PDF files to markdown in any language using LLM technology. Upload a PDF, pick a target language, and get clean translated markdown output.
+Convert and translate PDF files to markdown in any language using LLM technology. Upload a PDF, pick a target language, and get clean translated markdown output. Bring your own API keys, no subscription needed. 
 
 *SvelteKit + TypeScript -- deployed to GitHub Pages*
 
