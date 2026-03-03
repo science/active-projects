@@ -47,6 +47,64 @@ Extract Google Docs comment threads and convert them to clean, readable markdown
 
 *SvelteKit + TypeScript + Tailwind -- deployed to GitHub Pages*
 
+### [Google Calendar Time Slot Generator](https://github.com/science/gcal-timeslot-generator)
+
+Google Apps Script web app that reads your Google Calendar and generates copyable time-slot text for scheduling emails and messages. Scans the next N business days, computes free slots within working hours, supports multi-calendar merging, meeting fatigue breaks, timezone display, and two output formats (bullets or compact).
+
+*TypeScript + Rollup + Google Apps Script + Jest*
+
+---
+
+## Linux Desktop
+
+### [Multi-Row Panel Launchers](https://github.com/science/cinnamon-multirow-panellauncher)
+
+Cinnamon applet that wraps panel launcher icons into multiple rows on tall panels. Forked from the stock panel-launchers applet. Supports 1–4 rows with auto-sizing, manual icon size override, max-width caps, overflow popup with chevron, and drag-and-drop reordering.
+
+*GJS (Clutter/St) + Node.js tests*
+
+---
+
+### [Multi-Row Window List](https://github.com/science/cinnamon-multirow-windowlist)
+
+Cinnamon applet that wraps window-list buttons into multiple rows on tall panels. Forked from the stock window-list applet. Features adaptive button sizing, app grouping, drag-and-drop reordering, hover thumbnails, middle-click close, and attention alerts.
+
+*GJS (Clutter/St) + Node.js tests + VM E2E tests (libvirt/KVM)*
+
+---
+
+### [System Tray with Overflow](https://github.com/science/cinnamon-systray-overflow)
+
+Unified system tray applet for Cinnamon 6.0+ that merges XEmbed and XApp status icons into a single applet with an overflow popup. Drag-and-drop promotion/demotion between visible and overflow sections, plus a system applet proxy.
+
+*GJS (Clutter/St) + Node.js tests + VM E2E tests (SPICE/virtio-fs)*
+
+---
+
+### [Audio Switcher](https://github.com/science/audio-switcher)
+
+PipeWire auto-routing and recovery daemon for Linux. Built for the Sennheiser BTD-800 USB Bluetooth dongle -- detects headset connection via HID reports, routes audio automatically, falls back to S/PDIF speakers on disconnect, and recovers PipeWire after crashes and sleep/resume cycles.
+
+*Bash + systemd + PipeWire + udev*
+
+---
+
+### [PAM Fingerprint Sudo](https://github.com/science/pam-fprintd-sudo)
+
+PAM module enabling fingerprint-authenticated sudo in non-TTY contexts like IDE terminals and Claude Code. Uses `pam_exec.so` to launch a GTK3 fingerprint popup instead of a terminal password prompt. Includes a `sudo -i` escape hatch for password fallback.
+
+*Bash + Python3 (GTK3) + PAM + fprintd*
+
+---
+
+### [Mouse Tools](https://github.com/science/mouse-tools)
+
+Mouse management daemon for Linux built on evdev. Handles button debounce (fixes phantom releases on worn mice during drags) and button-to-key remapping (e.g., side buttons to volume control). Includes movement diagnostics and drag monitoring.
+
+*Python3 (evdev/uinput) + systemd + pytest*
+
+---
+
 ## Android
 
 ### [DateTime Widget](https://github.com/science/datetime-widget)
