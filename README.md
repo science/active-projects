@@ -47,6 +47,17 @@ Extract Google Docs comment threads and convert them to clean, readable markdown
 
 *SvelteKit + TypeScript + Tailwind -- deployed to GitHub Pages*
 
+### [Recipe Measurements Converter](https://github.com/science/recipe-measurements-converter)
+**Live:** [science.github.io/recipe-measurements-converter](https://science.github.io/recipe-measurements-converter/)
+
+Standalone webapp that converts recipe volume and weight measurements to grams
+using USDA food density data for 400 cooking ingredients. Features single-ingredient lookup
+and a bulk recipe converter that uses AI to parse entire ingredient lists. No server required.
+
+*SvelteKit + TypeScript + OpenAI embeddings -- static site*
+
+---
+
 ### [Google Calendar Time Slot Generator](https://github.com/science/gcal-timeslot-generator)
 
 Google Apps Script web app that reads your Google Calendar and generates copyable time-slot text for scheduling emails and messages. Scans the next N business days, computes free slots within working hours, supports multi-calendar merging, meeting fatigue breaks, timezone display, and two output formats (bullets or compact).
