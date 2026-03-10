@@ -108,6 +108,14 @@ PAM module enabling fingerprint-authenticated sudo in non-TTY contexts like IDE 
 
 ---
 
+### [Anomalous Monitor](https://github.com/science/anomalous-mon)
+
+Desktop anomaly monitor that detects sustained CPU hogging and OOM kills on Linux workstations. Uses dual-track state (PID + process name) to catch both stuck processes and crash-looping services. Alerts via desktop notifications after 5 consecutive high-CPU samples. Built after an rclone mount silently consumed 1.9GB RSS without alerting.
+
+*Bash + systemd user timer + journalctl*
+
+---
+
 ### [Mouse Tools](https://github.com/science/mouse-tools)
 
 Mouse management daemon for Linux built on evdev. Handles button debounce (fixes phantom releases on worn mice during drags) and button-to-key remapping (e.g., side buttons to volume control). Includes movement diagnostics and drag monitoring.
