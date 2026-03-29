@@ -68,6 +68,14 @@ Google Apps Script web app that reads your Google Calendar and generates copyabl
 
 ## Linux Desktop
 
+### [PDF Simple Signing](https://github.com/science/pdf-simple-signing)
+
+Minimal desktop tool to stamp text and signature images onto PDFs without re-rendering the original layout. Features a full undo stack (add, delete, reposition, resize), per-image size memory, configurable date/name variables, and a dirty-flag save prompt. Writes directly to PDF content streams via PyMuPDF.
+
+*Python3 + PyQt6 + PyMuPDF + pytest*
+
+---
+
 ### [Multi-Row Panel Launchers](https://github.com/science/cinnamon-multirow-panellauncher)
 
 Cinnamon applet that wraps panel launcher icons into multiple rows on tall panels. Forked from the stock panel-launchers applet. Supports 1–4 rows with auto-sizing, manual icon size override, max-width caps, overflow popup with chevron, and drag-and-drop reordering.
