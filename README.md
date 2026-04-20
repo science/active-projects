@@ -132,6 +132,14 @@ Mouse management daemon for Linux built on evdev. Handles button debounce (fixes
 
 ---
 
+### [stay-awake](https://github.com/science/stay-awake)
+
+Temporarily inhibit system suspend for long-running overnight jobs. Thin, tested wrapper over `systemd-inhibit` with duration or command-wrapping modes. Respects the machine's xidlehook-based idle/lock config.
+
+*Python3 + systemd-inhibit + pytest*
+
+---
+
 ## Android
 
 ### [DateTime Widget](https://github.com/science/datetime-widget)
