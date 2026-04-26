@@ -68,9 +68,9 @@ Google Apps Script web app that reads your Google Calendar and generates copyabl
 
 ## Linux Desktop
 
-### [PDF Simple Signing](https://github.com/science/pdf-simple-signing)
+### [PDF Sign & Fill](https://github.com/science/pdf-sign-and-fill)
 
-Minimal desktop tool to stamp text and signature images onto PDFs without re-rendering the original layout. Features a full undo stack (add, delete, reposition, resize), per-image size memory, configurable date/name variables, and a dirty-flag save prompt. Writes directly to PDF content streams via PyMuPDF.
+Linux desktop tool to stamp text/signature images onto PDFs *and* fill AcroForm fields (text, checkboxes, radio buttons, dropdowns). Built because Foxit isn't available on Linux and the standard Linux PDF tools (Okular, Evince) don't fill forms or stamp. Stamps flatten on save; form values stay interactive so recipients can edit them in any standards-compliant viewer. Writes directly to PDF content streams and widget xrefs via PyMuPDF without re-rendering the original layout.
 
 *Python3 + PyQt6 + PyMuPDF + pytest*
 
