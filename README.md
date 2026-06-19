@@ -140,6 +140,14 @@ Temporarily inhibit system suspend for long-running overnight jobs. Thin, tested
 
 ---
 
+### [xwindow-tamer](https://github.com/science/xwindow-tamer)
+
+Event-driven X11 window placement daemon that moves windows onto the right monitor/workspace the instant they match a declarative rule -- including the moment a browser extension rewrites a window title *after* creation, which `devilspie2` cannot react to. Uses libwnck via GObject introspection for both window events and control. Built to replace a brittle devilspie2 + cinnamon-restart setup.
+
+*Python3 (gi/libwnck) + systemd user service + pytest*
+
+---
+
 ## Android
 
 ### [DateTime Widget](https://github.com/science/datetime-widget)
